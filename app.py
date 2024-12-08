@@ -33,7 +33,8 @@ st.set_page_config(page_title="Stock Finder", page_icon="📈")
 st.title("Stock Finder 📈")
 
 query = st.text_input(
-    "What kind of stock are you looking for?", "Cryptocurrency stocks"
+    "What kind of stock are you looking for?",
+    placeholder="Cryptocurrency, EV, Tech, etc.",
 )
 embedded_query = SentenceTransformer("sentence-transformers/all-mpnet-base-v2").encode(
     query
