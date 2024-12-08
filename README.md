@@ -29,7 +29,7 @@ A web application that helps you find stocks based on various filters such as ma
 Install the required Python libraries:
 
 ## Visit Live
-[Live]([https](https://rafiks7-stock-finder-app-xnxdfp.streamlit.app/))
+Check out the live application here: [Live](https://rafiks7-stock-finder-app-xnxdfp.streamlit.app/)
 
 ```bash
 pip install -r requirements.txt
